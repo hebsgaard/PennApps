@@ -1,0 +1,38 @@
+/* 
+    Created on : 24-04-2014, 13:20:49
+    Author     : Kasper
+*/
+
+
+
+.reviews{
+    width:100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.reviews p {
+    float:left;
+    margin:0 0 0 0;
+    margin-left: 20px;
+
+}
+.reviews input  {
+    float:left;
+}
+
+.delete{
+    display:inline-block;
+    top:16px;
+    right:1px;
+    float:right;
+    position: relative;
+}
+
+.left{
+    display:inline-block;
+}
+
+.delete a{
+    margin-top: 16px;
+}

@@ -1,0 +1,27 @@
+<link rel="stylesheet" type="text/css" href="review.css">
+<h2> Søg her</h2>
+<hr>
+<form method="GET" action="review.php">
+    <div class="reviews">
+        <p>SAP</p><input type="checkbox"  name="ssap" value="1"/>
+        <p>Truck certifikat</p><input type="checkbox" name="truck"  value="1"/>
+        <p>Hygiejne bevis</p><input type="checkbox" name="hyg"  value="1"/>
+        <p>Weekend </p><input type="checkbox" name="weekend" value="1"/>
+        <p>Hverdage</p><input type="checkbox" name="everyday"  value="1"/><br>
+        <p>Ferie</p><input type="checkbox" name="vacation" value="1"/>
+        <p>LEAN</p><input type="checkbox" name="lean"  value="1"/>
+        <p>Dag</p><input type="checkbox" name="day"  value="1"/>
+        <p>Nat</p><input type="checkbox" name="night"  value="1"/>
+        <p>Faglært</p><input type="checkbox" name="job"  value="1"/><br>
+        <p>Ryger på arbejdet</p><input type="checkbox" name="smoke"  value="1"/>
+        <p>Kan engelsk</p><input type="checkbox" name="eng"  value="1"/>
+        <p>Arbejdet hos arla før?</p><input type="checkbox" name="prevarla"  value="1"/>
+        <p>Nærmeste tiltrædningsdato</p><input type="date" name="date" value=""/>
+        <br>
+    </div>
+    <input type="submit" value="søg"/>
+</form>
+<form action="review.php?">
+    <input type="submit" value="nulstil søging"/>
+</form>
+<hr>

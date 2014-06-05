@@ -1,0 +1,160 @@
+﻿/* 
+    Created on : 24-04-2014, 13:20:49
+    Author     : Kasper
+*/
+@font-face {
+    font-family: 'head';
+    src: url('fonts/heading.ttf'); /* Safari, Android, iOS */
+}
+
+p {
+    font-family: "head", serif;
+    color: #fff;
+}
+
+body {
+    width: 70%;
+    left: 15%;
+    position: relative;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg4Y2I3NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMyJSIgc3RvcC1jb2xvcj0iIzdlYzc2YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjkzJSIgc3RvcC1jb2xvcj0iIzUxYmYzOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top, #88cb77 0%, #7ec76c 32%, #51bf39 93%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#88cb77), color-stop(32%,#7ec76c), color-stop(93%,#51bf39));
+    background: -webkit-linear-gradient(top, #88cb77 0%,#7ec76c 32%,#51bf39 93%);
+    background: -o-linear-gradient(top, #88cb77 0%,#7ec76c 32%,#51bf39 93%);
+    background: -ms-linear-gradient(top, #88cb77 0%,#7ec76c 32%,#51bf39 93%);
+    background: linear-gradient(to bottom, #88cb77 0%,#7ec76c 32%,#51bf39 93%);
+    background-repeat: repeat-y;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88cb77', endColorstr='#51bf39',GradientType=0 );
+}
+
+.reviews {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    .reviews p {
+        float: left;
+        margin: 0 0 0 0;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+
+    .reviews input {
+        float: left;
+        margin-bottom: 5px;
+        left: 8px;
+        position: relative;
+    }
+
+.delete {
+    display: inline-block;
+    top: 16px;
+    right: 1px;
+    float: right;
+    position: relative;
+}
+
+.left {
+    display: inline-block;
+}
+
+.delete a {
+    margin-top: 16px;
+}
+
+.element {
+}
+
+.line {
+    height: 40px;
+    position: relative;
+    width: 90%;
+}
+
+.arlabtn {
+    background: #51bf39;
+    border-color: #51bf39;
+    margin: 5px 5px 5px 5px;
+    color: #fff;
+}
+
+
+.header {
+    color: #363E42;
+    font-family: 'head';
+    margin-top: 0px;
+}
+
+
+
+.note {
+    position: relative;
+    width: 80%;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 1em;
+    color: #fff;
+    background: #51BF29;
+    border: 1px ridge rgb(46, 126, 39);
+    overflow: hidden;
+}
+
+    .note:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-width: 0 16px 16px 0;
+        border-style: solid;
+        border-color: rgb(255,200,00) rgb(255,200,00);
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+        box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+    }
+
+    .note:before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-width: 8px;
+        background: #51BF29;
+        -moz-border-radius: 0 0 0 5px;
+        border-radius: 0 0 0 5px;
+        display: block;
+        width: 0;
+    }
+
+    .note * {
+        margin: 0 0 0 0;
+    }
+
+.box {
+    position: relative;
+    display: block;
+    width: 48%;
+    margin-top: 20px;
+    margin: 0 0 0 0;
+}
+
+.commentBox {
+    width: 80%;
+    resize: none;
+    overflow-y: scroll;
+    height: 200px;
+}
+
+
+
+.box hr {
+    left: -8%;
+    position: relative;
+    width: 80%;
+}
+
+html {
+    height: 99%;
+}
