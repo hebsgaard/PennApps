@@ -1,0 +1,2 @@
+Skeleton 5
+d3f5Cd"Int"ä¢Temp"ä¢Tree"d"TextIO"ä¢Assem"Naã¢CODEGEN"h1aä¢Frame"çğ±ã¢FRAME"ad"X86Gen"jh7aÿ9jgp1d"X86Frame"ÿad"S"gp1d"Symbol"Cad"T"gp1ÿad"Tm"gp1ÿad"A"gp1ÿ"aä¢F"gp1ÿ9ad"PT"jgp1ÿ‚ gp1e"PrintTree"Ngp1ÿ,

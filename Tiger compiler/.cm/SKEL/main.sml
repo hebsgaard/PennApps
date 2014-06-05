@@ -1,0 +1,2 @@
+Skeleton 5
+d2f7d"OS"d"List"Cd"Semant"ä¢Symbol"d"TextIO"d"Parse"d"ErrorMsg"Nad"Main"h8ad"Tr"gp1d"Translate"ad"Te"gp1d"Temp"aä¢F"gp1d"X86Frame"Cad"G"gp1d"X86Gen"ad"C"gp1d"Canon"ad"S"gp1ÿad"A"gp1d"Assem"ad"PT"jgp1ÿ0gp1e"PrintTree"N
